@@ -18,7 +18,7 @@ def get_recommendations(title, cosine_sim=cosine_sim):
 
 
 def fetch_poster(movie_id):
-    api_key = '99b865e1700e7712d7028956ec9f52d7'  # Replace with your TMDB API key
+    api_key = 'Add here'  # Replace with your TMDB API key
     url = f'https://api.themoviedb.org/3/movie/{movie_id}?api_key={api_key}'
     response = requests.get(url)
     data = response.json()
